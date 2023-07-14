@@ -13,7 +13,7 @@ for word in sentence.split():
     else:
         word_count[word] = 1    
 
-num_unique_words = ""
+num_unique_words = len(word_count)
 
 most_frequent_word = ""
 max_count = 0
